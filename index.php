@@ -21,14 +21,14 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             width: 100%;
-            max-width: 400px; /* Limiter la largeur du formulaire */
+            max-width: 400px; 
             text-align: center;
         }
 
         .login-container img {
-            width: 60px; /* Ajuster la taille de l'icône */
+            width: 60px; 
             height: 60px;
-            margin-bottom: 20px; /* Espace sous l'icône */
+            margin-bottom: 20px; 
         }
 
         h2 {
@@ -53,7 +53,7 @@
             background-color: #45a049;
         }
 
-        /* Changer la couleur du bouton reset */
+        
         .reset-button {
             background-color: #f44336; /* Rouge */
             color: white;
@@ -78,8 +78,8 @@
 </head>
 <body>
     <div class="login-container">
-        <!-- Ajouter l'icône de l'utilisateur au-dessus du titre -->
-        <img src="cnx.jpg" alt="Icône utilisateur"> <!-- Remplacer par le chemin de votre image -->
+        
+        <img src="images\cnx.jpg" alt="Icône utilisateur"> 
         <h2>Connexion</h2>
         <form action="login.php" method="POST">
             <label for="username">Nom d'utilisateur</label>

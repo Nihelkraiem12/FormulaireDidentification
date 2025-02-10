@@ -133,12 +133,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <div class="login-container">
-        <!-- Ajouter l'icône de connexion centrée -->
-        <img src="cnx.jpg" alt="Icône utilisateur"> <!-- Remplacer par le chemin de votre image -->
+
+        <img src="images\cnx.jpg" alt="Icône utilisateur"> 
         
         <h2>Créer un compte</h2>
 
-        <!-- Affichage du message d'erreur s'il y en a un -->
+       
         <?php if ($message): ?>
             <div class="error-message"><?php echo $message; ?></div>
         <?php endif; ?>

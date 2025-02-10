@@ -15,7 +15,7 @@ if (!isset($_SESSION['user_id'])) {
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('logo1.jpg'); /* Remplacez par le chemin de votre image */
+            background-image: url('images/logo1.jpg'); 
             background-size: cover; /* Recouvre toute la page */
             background-position: center center; /* Centre l'image */
             background-attachment: fixed; /* L'image reste fixe pendant le défilement */
